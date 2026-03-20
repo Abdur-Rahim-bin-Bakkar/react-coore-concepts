@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim",
+    "math": 80,
+    "english": 75,
+    "science": 85,
+    "average": 80,
+    "result": "Pass"
+  },
+  {
+    "id": 2,
+    "name": "Karim",
+    "math": 50,
+    "english": 45,
+    "science": 55,
+    "average": 50,
+    "result": "Pass"
+  },
+  {
+    "id": 3,
+    "name": "Sadia",
+    "math": 30,
+    "english": 40,
+    "science": 35,
+    "average": 35,
+    "result": "Fail"
+  },
+  {
+    "id": 4,
+    "name": "Nusrat",
+    "math": 90,
+    "english": 88,
+    "science": 92,
+    "average": 90,
+    "result": "Pass"
+  },
+  {
+    "id": 5,
+    "name": "Hasan",
+    "math": 20,
+    "english": 25,
+    "science": 30,
+    "average": 25,
+    "result": "Fail"
+  },
+  {
+    "id": 6,
+    "name": "Jannat",
+    "math": 70,
+    "english": 65,
+    "science": 75,
+    "average": 70,
+    "result": "Pass"
+  },
+  {
+    "id": 7,
+    "name": "Arif",
+    "math": 55,
+    "english": 60,
+    "science": 50,
+    "average": 55,
+    "result": "Pass"
+  },
+  {
+    "id": 8,
+    "name": "Mim",
+    "math": 45,
+    "english": 40,
+    "science": 42,
+    "average": 42.33,
+    "result": "Fail"
+  },
+  {
+    "id": 9,
+    "name": "Sakib",
+    "math": 85,
+    "english": 80,
+    "science": 88,
+    "average": 84.33,
+    "result": "Pass"
+  },
+  {
+    "id": 10,
+    "name": "Tania",
+    "math": 60,
+    "english": 58,
+    "science": 62,
+    "average": 60,
+    "result": "Pass"
+  }
+]

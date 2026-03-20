@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "actor_name": "Shah Rukh Khan",
+    "best_movie": "Pathaan",
+    "movie_income_crore": 1050,
+    "actress_name": "Deepika Padukone",
+    "director": "Siddharth Anand",
+    "writer": "Siddharth Anand",
+    "image": "https://via.placeholder.com/200x200"
+  },
+  {
+    "id": 2,
+    "actor_name": "Salman Khan",
+    "best_movie": "Bajrangi Bhaijaan",
+    "movie_income_crore": 969,
+    "actress_name": "Kareena Kapoor",
+    "director": "Kabir Khan",
+    "writer": "Vijayendra Prasad",
+    "image": "https://via.placeholder.com/200x200"
+  },
+  {
+    "id": 3,
+    "actor_name": "Aamir Khan",
+    "best_movie": "Dangal",
+    "movie_income_crore": 2000,
+    "actress_name": "Sakshi Tanwar",
+    "director": "Nitesh Tiwari",
+    "writer": "Nitesh Tiwari",
+    "image": "https://via.placeholder.com/200x200"
+  },
+  {
+    "id": 4,
+    "actor_name": "Ranbir Kapoor",
+    "best_movie": "Animal",
+    "movie_income_crore": 900,
+    "actress_name": "Rashmika Mandanna",
+    "director": "Sandeep Reddy Vanga",
+    "writer": "Sandeep Reddy Vanga",
+    "image": "https://via.placeholder.com/200x200"
+  },
+  {
+    "id": 5,
+    "actor_name": "Hrithik Roshan",
+    "best_movie": "War",
+    "movie_income_crore": 475,
+    "actress_name": "Vaani Kapoor",
+    "director": "Siddharth Anand",
+    "writer": "Siddharth Anand",
+    "image": "https://via.placeholder.com/200x200"
+  },
+  {
+    "id": 6,
+    "actor_name": "Akshay Kumar",
+    "best_movie": "Sooryavanshi",
+    "movie_income_crore": 294,
+    "actress_name": "Katrina Kaif",
+    "director": "Rohit Shetty",
+    "writer": "Yunus Sajawal",
+    "image": "https://via.placeholder.com/200x200"
+  },
+  {
+    "id": 7,
+    "actor_name": "Allu Arjun",
+    "best_movie": "Pushpa",
+    "movie_income_crore": 350,
+    "actress_name": "Rashmika Mandanna",
+    "director": "Sukumar",
+    "writer": "Sukumar",
+    "image": "https://via.placeholder.com/200x200"
+  },
+  {
+    "id": 8,
+    "actor_name": "Prabhas",
+    "best_movie": "Baahubali 2",
+    "movie_income_crore": 1800,
+    "actress_name": "Anushka Shetty",
+    "director": "S. S. Rajamouli",
+    "writer": "Vijayendra Prasad",
+    "image": "https://via.placeholder.com/200x200"
+  }
+]
