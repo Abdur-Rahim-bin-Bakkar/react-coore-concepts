@@ -1,27 +1,33 @@
 import { Suspense } from 'react'
 import './App.css'
-import ContainerStudent from './components/ContainerStudent'
-import MovieCont from './components/Movies/MovieCont'
-import Event from './components/Practis/Event'
-import Cricket from './components/Cricket/Cricket'
-import Users from './components/Users/Users'
-import Loading from './components/Loading/Loading'
-import Post from './components/Posts/Post'
-import Count from './components/Counters/Count'
+// import ContainerStudent from './components/ContainerStudent'
+// import MovieCont from './components/Movies/MovieCont'
+// import Event from './components/Practis/Event'
+// import Cricket from './components/Cricket/Cricket'
+// import Users from './components/Users/Users'
+// import Loading from './components/Loading/Loading'
+// import Post from './components/Posts/Post'
+// import Count from './components/Counters/Count'
+import Countries from './components/Countries/Countries'
 
-const students = fetch("../public/studentMark.json").then(res => res.json())
+// const students = fetch("../public/studentMark.json").then(res => res.json())
 
-const movies = fetch('../public/movie.json').then(res => res.json())
+// const movies = fetch('../public/movie.json').then(res => res.json())
 
 
-const data = () => {
+// const data = () => {
+//   return fetch('https://jsonplaceholder.typicode.com/users').then(res => res.json())
+// }
 
-  return fetch('https://jsonplaceholder.typicode.com/users').then(res => res.json())
-}
+const fetchCountries = fetch("https://openapi.programming-hero.com/api/all").then(res => res.json())
 function App() {
   return (
     <>
-      <Count></Count>
+
+      <Suspense fallback={<span className='loading loading-spinner'></span>}>
+        <Countries fetchCountries={fetchCountries}></Countries>
+      </Suspense>
+      {/* <Count></Count> */}
       {/* <Suspense fallback={<Loading></Loading>}>
         <Users pData={data()}></Users>
         </Suspense>
