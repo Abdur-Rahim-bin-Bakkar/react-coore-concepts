@@ -7,6 +7,7 @@ import Cricket from './components/Cricket/Cricket'
 import Users from './components/Users/Users'
 import Loading from './components/Loading/Loading'
 import Post from './components/Posts/Post'
+import Count from './components/Counters/Count'
 
 const students = fetch("../public/studentMark.json").then(res => res.json())
 
@@ -20,7 +21,8 @@ const data = () => {
 function App() {
   return (
     <>
-      <Suspense fallback={<Loading></Loading>}>
+      <Count></Count>
+      {/* <Suspense fallback={<Loading></Loading>}>
         <Users pData={data()}></Users>
         </Suspense>
       <Cricket></Cricket>
@@ -32,7 +34,7 @@ function App() {
       </Suspense>
       <Event></Event>
 
-      <Post></Post>
+      <Post></Post> */}
     </>
   )
 }
